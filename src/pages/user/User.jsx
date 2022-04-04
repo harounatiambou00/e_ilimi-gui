@@ -1,13 +1,13 @@
 import React from 'react'
+
 import { Outlet } from 'react-router-dom'
 
-const Home = () => {
+const User = () => {
   return (
     <div>
-      <h3>User Home page</h3>
-      <Outlet />
+        <Outlet />
     </div>
   )
 }
 
-export default Home
+export default User
